@@ -11,7 +11,7 @@ body {
     margin: 20% auto;
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 45%;
     min-width: 40%;
     background-color: white;
 }
@@ -23,14 +23,15 @@ body {
 }
 .post-icons {
     margin: 2%;
-    flex-basis: 90%;
+    flex-basis: 80%;
+}
+.post-icons i{
+    margin-right: 1%;
 }
 .post-icons2{
     margin: 2%;
-}
-
-.post-icons .post-icons2{
-    justify-content:center;
+    margin-left: auto;
+    align-content: right;
 }
 
 .image{
@@ -41,6 +42,6 @@ img{
     object-fit: cover;
     width: 100%;
 }
-.postbody p{
+.post-body p{
     margin: 1%;
 }
