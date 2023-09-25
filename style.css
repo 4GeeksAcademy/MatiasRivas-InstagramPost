@@ -21,6 +21,17 @@ body {
     justify-content: space-between;
     flex-basis: 96%;
 }
+
+.post-header p{
+    font-size: 10px;
+    align-content: left;
+    margin-left: 1%;
+}
+.post-header2{
+    margin: 2%;
+    margin-left: auto;
+    align-content: right;
+}
 .post-icons {
     margin: 2%;
     flex-basis: 80%;
